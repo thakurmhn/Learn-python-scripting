@@ -7,7 +7,8 @@ In case of default aws profile, no need to create mgmt console and step 1 can be
 import boto3
 
 #step1
-############aws_mgmt_con=boto3.session.Session(profile_name='default')
+# Custom Session
+##aws_mgmt_con=boto3.session.Session(profile_name='default')
 
 #step2
 iam_con=boto3.resource(service_name='iam')
