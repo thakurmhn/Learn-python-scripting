@@ -19,7 +19,7 @@ stdin, stdout, stderr = ssh.exec_command('uptime')
 
 print("Command Output is :")
 print(stdout.readlines())
-#print(stdout.read())
+#print(stdout.read())/[
 
 
 print("Command Error is : ")
